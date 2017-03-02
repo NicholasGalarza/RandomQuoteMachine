@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Marcellus+SC');
+* {
+    background-color: #c9c9c9;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #efefef;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 55px;
+    padding: 70px;
+}
+
+.banner {
+    margin-top: -30px;
+    margin-bottom: 15px;
+    color: snow;
+    background-color: #4f4c4c;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.banner h1 {
+    background-color: inherit;
+    font-family: 'Marcellus SC', serif;
+}
+
+.quoteBody {
+    background-color: #494a99;
+    border: solid white 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.quoteBody p {
+    background-color: inherit;
+    font-famiy: 'Josefin Sans', sans-serif;
+    color: snow;
+}
+
+button {
+    padding: 20px 60px;
+    background-color: inherit;
+    border: solid #ef3e3e 2px;
+    border-radius: 10px;
+    color: #ef3e3e;
+    margin-top: 15px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #ef3e3e;
+    color: snow;
+}
+
+img {
+    position: absolute;
+    top: 5px;
+    z-index: -1;
+    opacity: 0.40;
+}
