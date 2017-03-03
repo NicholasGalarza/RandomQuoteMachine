@@ -61,3 +61,10 @@ img {
     z-index: -1;
     opacity: 0.40;
 }
+
+@media(min-width: 762px){
+  button{
+    width: 49%;
+  }
+
+}
